@@ -84,11 +84,11 @@ body {
     left: 0;
     top: 60px;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 
     flex-direction: column;
     text-align: center;
-    gap: 40px;
+    gap: 50px;
     
     background-color: aliceblue;
   }

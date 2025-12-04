@@ -30,7 +30,8 @@ body {
 }
 
 .nav-bar .menu-icon i {
-  font-size: 30px;
+  font-size: 25px;
+  color: green;
 }
 
 .nav-bar .menu-icon {
@@ -80,16 +81,20 @@ body {
   }
 
   .nav-bar .nav-links {
+    display: none;
     position: absolute;
     left: 0;
     top: 60px;
     width: 100%;
     padding: 30px;
-
     flex-direction: column;
     text-align: center;
     gap: 50px;
-    
     background-color: aliceblue;
+    
+  }
+
+  .nav-links.show {
+    display: flex;
   }
 }
